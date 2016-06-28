@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TouristGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Historic_sites">Historic sites</string>
+    <string name="parks">parks</string>
+</resources>

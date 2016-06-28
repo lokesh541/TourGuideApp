@@ -30,12 +30,12 @@ public class MuseumsFragment extends Fragment {
         ArrayList<Location> locations = new ArrayList<Location>();
 
 
-        locations.add(new Location("Salarjung Museum"));
-        locations.add(new Location("City Museum"));
-        locations.add(new Location("Surendra puri"));
-        locations.add(new Location("Birla Science Museum"));
-        locations.add(new Location("Birla Planetorium"));
-        locations.add(new Location("Hyderabad Pearls"));
+        locations.add(new Location(getString(R.string.salar)));
+        locations.add(new Location(getString(R.string.city)));
+        locations.add(new Location(getString(R.string.surendra)));
+        locations.add(new Location(getString(R.string.birlascience)));
+        locations.add(new Location(getString(R.string.birlaplanet)));
+        locations.add(new Location(getString(R.string.pearls)));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(), locations);
 

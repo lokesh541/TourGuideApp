@@ -33,11 +33,11 @@ public class ParksFragment extends Fragment {
 
 
 
-        locations.add(new Location("Indira Park"));
-        locations.add(new Location("Ntr Gardens"));
-        locations.add(new Location("Lumbini park"));
-        locations.add(new Location("KBR park"));
-        locations.add(new Location("Lotus pond"));
+        locations.add(new Location(getString(R.string.indira)));
+        locations.add(new Location(getString(R.string.ntr)));
+        locations.add(new Location(getString(R.string.lumbini)));
+        locations.add(new Location(getString(R.string.kbr)));
+        locations.add(new Location(getString(R.string.lotus)));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(),locations);
 

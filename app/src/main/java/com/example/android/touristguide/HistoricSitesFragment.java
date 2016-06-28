@@ -36,11 +36,11 @@ public class HistoricSitesFragment extends Fragment {
 
 
 
-        locations.add(new Location("Charminar", R.drawable.charminar));
-        locations.add(new Location("Birla mandir",R.drawable.birlamandir));
-        locations.add(new Location("Mecca masjid",R.drawable.mecca));
-        locations.add(new Location("FalakNuma palace",R.drawable.falaknuma));
-        locations.add(new Location("Golconda",R.drawable.golconda));
+        locations.add(new Location(getString(R.string.charminar), R.drawable.charminar));
+        locations.add(new Location(getString(R.string.birlamandir),R.drawable.birlamandir));
+        locations.add(new Location(getString(R.string.mecca),R.drawable.mecca));
+        locations.add(new Location(getString(R.string.falaknuma),R.drawable.falaknuma));
+        locations.add(new Location(getString(R.string.golconda),R.drawable.golconda));
 
        LocationAdapter locationAdapter = new LocationAdapter(getActivity(),locations);
 

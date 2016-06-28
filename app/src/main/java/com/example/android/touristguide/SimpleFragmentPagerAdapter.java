@@ -47,12 +47,14 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
             return mContext.getString(R.string.Historic_sites);
-        } else if (position == 1){
-            return  mContext.getString(R.string.parks);
-        }else if (position == 2){
-            return  "Lakes";
-        }else {
-            return  "   Museums";
+        } else {
+            if (position == 1) {
+                return mContext.getString(R.string.parks);
+            } else if (position == 2) {
+                return mContext.getString(R.string.lakes);
+            } else {
+                return mContext.getString(R.string.Museums);
+            }
         }
     }
 

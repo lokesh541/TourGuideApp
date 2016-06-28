@@ -31,12 +31,12 @@ public class LakesFragment extends Fragment {
 
 
 
-        locations.add(new Location("Hussain Sagar"));
-        locations.add(new Location("Himayath Sagar"));
-        locations.add(new Location("Shamirpet lake"));
-        locations.add(new Location("Durgam Cheruvu"));
-        locations.add(new Location("Saroornager Lake"));
-        locations.add(new Location("Usman Sagar"));
+        locations.add(new Location(getString(R.string.Hussain)));
+        locations.add(new Location(getString(R.string.himayath)));
+        locations.add(new Location(getString(R.string.Shamirpet)));
+        locations.add(new Location(getString(R.string.durgam)));
+        locations.add(new Location(getString(R.string.saroor)));
+        locations.add(new Location( getString(R.string.Usman)));
 
         LocationAdapter locationAdapter = new LocationAdapter(getActivity(),locations);
 
